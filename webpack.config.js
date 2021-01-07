@@ -31,7 +31,9 @@ module.exports = {
             {
                 test: /\.ts$/,
                 use: 'ts-loader',
-                include: [path.resolve(__dirname, 'src')]   // location of ts files
+                include: [path.resolve(__dirname, 'src')]
+                // include: is the location of ts files
+                // overrides the outDir, rootDir, and include, in tsconfig.json
             }
         ]
     }
