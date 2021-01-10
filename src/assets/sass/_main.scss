@@ -1,0 +1,20 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black
+}
+
+.from_main_sass {
+    color: beige;
+}
+
+
+@font-face {
+    font-family: "Digital";
+    src: url('../fonts/digital.ttf')
+}
+
+@import './module1.scss';
