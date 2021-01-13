@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev:serve": "yarn run dev:build && webpack serve",
+    "dev:serve": "yarn run dev:build && webpack serve --config ./webpack.config.dev.js",
     "dev:build": "clear && webpack --config ./webpack.config.dev.js",
-    "prod:serve": "yarn run prod:build && webpack serve",
+    "prod:serve": "yarn run prod:build && webpack serve --config ./webpack.config.prod.js",
     "prod:build": "clear && webpack --config ./webpack.config.prod.js"
   },
   "devDependencies": {
